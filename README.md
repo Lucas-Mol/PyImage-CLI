@@ -14,8 +14,9 @@ Here some functions and how to call'em:
 | Resizer             |  `--resizer \| -r`    |  resize a local or url image                    | [1]: a image path locally on your PC or a URL to a image file             |
 |                     |                       |                                                 | [2]: a desired height (integer) in pixels. (the resizer keeps proportion) |
 | Converter           |  `--converter \| -c`  |  covert a image to PNG or JPEG.                 | [1]: a image path locally on your PC or a URL to a image file.            |
-|                     |                       |                                                 | [2]: a desired format. [Accepted  Formats]: jpg | png                     |
+|                     |                       |                                                 | [2]: a desired format. [Accepted  Formats]: jpg OR png                    |
 | PNG Transparentizer |  `--png_t \| -pt`     |  turn white background in a png to transparent. | [1]: a image path locally on your PC or a URL to a image file.            |
+|                     |                       |                                                 | [2]: a accuracy level. [Accepted level]: 0 OR 1 OR 2                      |
 | Help                |  `--help \| -h`       |  call help instructions                         | `--`                                                                      |
 
 ## How to use it:
