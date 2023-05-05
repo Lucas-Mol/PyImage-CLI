@@ -14,8 +14,10 @@ def run():
     img_path = input("Enter with local path/url of image: \n")
     desired_extension = input("Enter with the desired desired extension: \n")
 
+    msg_printer.converter_intro()
     img = image_utils.get_image(img_path)
     _save_img(img, desired_extension)
+    msg_printer.converter_ending()
 
 def run_args(args):
     try:

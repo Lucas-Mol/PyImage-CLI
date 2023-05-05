@@ -18,9 +18,11 @@ def run():
     img_path = input("Enter with local path/url of image: \n")
     img_height = int(input("Enter with the desired height in pxl: \n"))
 
+    msg_printer.resizer_intro()
     img = image_utils.get_image(img_path)
     img = _resize_img(img, img_height)
     _save_img(img)
+    msg_printer.resizer_ending()
 
 def run_args(args):
     try:

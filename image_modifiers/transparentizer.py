@@ -26,9 +26,11 @@ def _save_img(img):
 def run():
     img_path = input("Enter with local path/url of image: \n")
 
+    msg_printer.transparentizer_intro()
     img = image_utils.get_image(img_path)
     img = _transparentizer_img(img)
     _save_img(img)
+    msg_printer.transparentizer_ending()
 
 def run_args(args):
     try:
