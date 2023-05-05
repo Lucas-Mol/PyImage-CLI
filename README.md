@@ -26,7 +26,7 @@ Just use: `python pyimage.py`
 You can install pyinstaller with: `pip install pyinstaller` <br/>
 And use `pyinstaller pyimage.py`
 
-It'll convert this project in a executable. Therefore, you can add this new executable as a environment variable on PATH and use it at any place on your terminal :D (To be used as env variable, PyImage-CLI saves the result manipulated image on pwd)
+It'll convert this project in a executable. Therefore, you can add this new executable as a environment variable on PATH and use it at any place on your terminal 😀 (To be used as env variable, PyImage-CLI saves the result manipulated image on pwd)
 
 ## Tech Stack
 
