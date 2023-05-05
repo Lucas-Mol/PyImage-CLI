@@ -83,6 +83,7 @@ def helper():
     print("--converter (-c): covert a image to PNG or JPEG.                 REQUIRED ARGS:  [1]: a image path locally on your PC or a URL to a image file.")
     print("                                                                                 [2]: a desired format. [Accepted  Formats]: jpg | png")
     print("--png_t (-pt): turn white background in a png to transparent.    REQUIRED ARGS:  [1]: a image path locally on your PC or a URL to a image file.")
+    print("                                                                                 [2]: a accuracy level to algorithm. [Accepted level]: 0 | 1 | 2")
     print("--help (-h): call help instructions")
     
 
